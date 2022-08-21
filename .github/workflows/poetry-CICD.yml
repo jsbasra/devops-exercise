@@ -59,7 +59,7 @@ jobs:
     - name: Run Python App
       run: poetry run python app/main.py &
     - name: Run tests
-      run: poetry run python .\tests.py
+      run: poetry run python tests.py
 
 
       
