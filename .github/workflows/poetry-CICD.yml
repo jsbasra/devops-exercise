@@ -60,6 +60,9 @@ jobs:
       run: poetry run python app/main.py &
     - name: Run tests
       run: poetry run python tests.py
+    
+    - name: Build Docker image
+      run: docker build . --file Dockerfile --tag Poetry
 
 
       
