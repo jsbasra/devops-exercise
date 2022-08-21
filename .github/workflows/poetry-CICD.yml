@@ -62,7 +62,7 @@ jobs:
       run: poetry run python tests.py
     
     - name: Build Docker image
-      run: docker build . --file Dockerfile --tag Poetry
+      run: docker build . --file Dockerfile --tag poetry
 
 
       
